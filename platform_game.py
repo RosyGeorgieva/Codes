@@ -1,4 +1,4 @@
-# Writeimport pygame
+import pygame
 import sys
 import random
 
@@ -108,4 +108,3 @@ while not game_over:
     pygame.draw.rect(screen,'maroon',(player_pos[0],player_pos[1],player_size,player_size/2))
     clock.tick(30)
     pygame.display.update()
- your code here :-)
